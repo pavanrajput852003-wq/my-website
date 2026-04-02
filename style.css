@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+header {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("bgH.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+  /* 🔥 Glow effect */
+  color: white;
+  text-shadow: 0 0 10px #00f0ff,
+               0 0 20px #00f0ff,
+               0 0 40px #00f0ff;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+
+nav {
+  text-align: center;
+  background: #1e293b;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 650px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+/* 🔥 Image styling */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #22c55e;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.ad {
+  background: #334155;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #020617;
+}
